@@ -11,3 +11,9 @@ pull:
 .PHONY.: push
 push:
 	git push -u origin master
+
+.PHONY.: clean
+clean:
+	@find . -name "*.pyc" -delete
+	@find . -name "*.py~" -delete
+
