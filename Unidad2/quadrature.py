@@ -52,9 +52,9 @@ def trapezoid(myfun, N, xmin, xmax, do_plot=True):
   return int_val
 
 if __name__=="__main__":
-  N = 10
+  N = 40
   xmin = -1
   xmax = 1
-  myfun = lambda x : x**3*np.sin(x)
+  myfun = lambda x :  np.sin(x)/x #1.0 if abs(x)<1E-6  else np.sin(x)/x
   print midpoint(myfun, N, xmin, xmax)
   print trapezoid(myfun, N, xmin, xmax)
