@@ -3,11 +3,11 @@ import numpy as np
 
 # Define the parameters
 A = 1.0
-B = 3.0 # Test 1.0, 2.0, 3.0
+B = 1.0 # Test 1.0, 2.0, 3.0
 C = 1.0
 D = 2.0
 E = 0.0
-G = -10.0 # F not needed
+G =-10.0 # F not needed
 xmin, xmax = -10.0, 10.0
 ymin, ymax = -10.0, 10.0
 Nx, Ny = 1000, 1000
